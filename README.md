@@ -28,7 +28,7 @@ This repository contains all materials and code for **CS 485 Lab 1**, which expl
 
 ### Task 2 Script
 python Task2_ImageEncrypt.py -i <input_image> -o <output_image> -k <16-char_key> -m <AES_ECB|AES_CBC>
-Example:
+          Example:
 
 python Task2_ImageEncrypt.py -i images/pic_original.bmp -o images/out.bmp -k 0011223344556677 -m AES_ECB
 The script will read the image, pad the bytes, encrypt them, and save the encrypted image.
