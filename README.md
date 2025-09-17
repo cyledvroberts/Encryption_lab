@@ -35,7 +35,7 @@ The script will read the image, pad the bytes, encrypt them, and save the encryp
 
 Only pixel data is encrypted; metadata is preserved to allow viewing of the encrypted image.
 
-Notes
+### Notes
 AES key must be 16 characters for 128-bit encryption.
 
 ECB mode reveals patterns in images, while CBC mode masks them.
