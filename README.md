@@ -27,7 +27,6 @@ This repository contains all materials and code for **CS 485 Lab 1**, which expl
 ## Usage
 
 ### Task 2 Script
-```bash
 python Task2_ImageEncrypt.py -i <input_image> -o <output_image> -k <16-char_key> -m <AES_ECB|AES_CBC>
 Example:
 
