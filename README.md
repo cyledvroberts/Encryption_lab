@@ -24,17 +24,6 @@ This repository contains all materials and code for **CS 485 Lab 1**, which expl
   - Linux: `/usr/bin/openssl`
   - Windows: `C:\Program Files\Git\usr\bin\openssl.exe`
 
-## File Structure
-CS485_Lab1/
-├── Task1_LabReport.pdf # Answers, analysis, screenshots for Task 1
-├── Task2_ImageEncrypt.py # Python script for Task 2
-├── requirements.txt # Python dependencies
-├── images/ # Sample image files for Task 2
-└── README.md # This file
-
-shell
-Copy code
-
 ## Usage
 
 ### Task 2 Script
@@ -42,8 +31,6 @@ Copy code
 python Task2_ImageEncrypt.py -i <input_image> -o <output_image> -k <16-char_key> -m <AES_ECB|AES_CBC>
 Example:
 
-bash
-Copy code
 python Task2_ImageEncrypt.py -i images/pic_original.bmp -o images/out.bmp -k 0011223344556677 -m AES_ECB
 The script will read the image, pad the bytes, encrypt them, and save the encrypted image.
 
